@@ -11,7 +11,11 @@ const routes: Routes = [//RUTA POR DEFECTO EN LA INICIALIZACION
   //ruta que nos vincula al modulo de inicio y todo su contenido
   //loadchildren: indica que habra una ruta hija
   //.then: funcion asincronica tipo PROMESA
+
   },
+  {path:"",loadChildren:()=>import('./modules/producto/producto.module').then(m=>m.ProductoModule)
+  },
+
 ];
 
 @NgModule({

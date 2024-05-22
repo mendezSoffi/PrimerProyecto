@@ -4,10 +4,11 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 
 const routes: Routes = [
   {
-      path:"",component:InicioComponent}, //definir la ruta del componente inicio
-      {path:"inicio",component:InicioComponent} //definir la ruta del componente inicio
-  
-  
+    path: "", component: InicioComponent
+  }, //definir la ruta del componente inicio
+  { path: "inicio", component: InicioComponent } //definir la ruta del componente inicio
+
+
 ];
 
 @NgModule({
