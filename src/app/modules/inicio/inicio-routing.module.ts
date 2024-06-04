@@ -2,13 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
+// RUTAS HIJAS DEL MÓDULO INICIO
 const routes: Routes = [
   {
-    path: "", component: InicioComponent
-  }, //definir la ruta del componente inicio
-  { path: "inicio", component: InicioComponent } //definir la ruta del componente inicio
-
-
+    path:"",component: InicioComponent
+  },
+  {
+    path:"inicio",component: InicioComponent
+  }
 ];
 
 @NgModule({

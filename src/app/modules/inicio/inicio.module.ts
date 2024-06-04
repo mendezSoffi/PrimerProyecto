@@ -2,11 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
-//vista  v
+
+// VISTAS - PÁGINAS
 import { InicioComponent } from './pages/inicio/inicio.component';
-//componentes
+
+// COMPONENTES LOCALES
 import { CardComponent } from './components/card/card.component';
-//componentes de material
+
+// COMPONENTES DE MATERIAL
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 
@@ -18,10 +21,6 @@ import {MatCardModule} from '@angular/material/card';
   imports: [
     CommonModule,
     InicioRoutingModule,
-    MatButtonModule,
-    MatCardModule
-  ],
-  exports: [
     MatButtonModule,
     MatCardModule
   ]
